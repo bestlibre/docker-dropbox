@@ -1,13 +1,15 @@
 # Dropbox in Docker
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/janeczku/dropbox.svg?maxAge=2592000)][hub]
-[![License](https://img.shields.io/github/license/janeczku/docker-alpine-kubernetes.svg?maxAge=2592000)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/bestlibre/docker-dropbox.svg?maxAge=2592000)][hub]
+[![License](https://img.shields.io/github/license/bestlibre/docker-dropbox.svg?maxAge=2592000)]()
 
-[hub]: https://hub.docker.com/r/janeczku/dropbox/
+[hub]: https://hub.docker.com/r/bestlibre/dropbox/
 
 Run Dropbox inside Docker. Fully working with local host folder mount or inter-container linking (via `--volumes-from`).
 
-This repository provides the [janeczku/dropbox](https://registry.hub.docker.com/u/janeczku/dropbox/) image.
+This repository provides the [bestlibre/dropbox](https://registry.hub.docker.com/u/bestlibre/dropbox/) image.
+
+This is a fork from [janeczku/docker-dropbox](https://github.com/janeczku/docker-dropbox) trying to support non ext-4 file systems on linux with the help of [dark/dropbox-filesystem-fix](https://github.com/dark/dropbox-filesystem-fix).
 
 ## Usage examples
 
