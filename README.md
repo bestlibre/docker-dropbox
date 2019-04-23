@@ -1,6 +1,6 @@
 # Dropbox in Docker
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/bestlibre/docker-dropbox.svg?maxAge=2592000)][hub]
+[![Docker Pulls](https://img.shields.io/docker/pulls/bestlibre/dropbox.svg?maxAge=2592000)][hub]
 [![License](https://img.shields.io/github/license/bestlibre/docker-dropbox.svg?maxAge=2592000)]()
 
 [hub]: https://hub.docker.com/r/bestlibre/dropbox/
